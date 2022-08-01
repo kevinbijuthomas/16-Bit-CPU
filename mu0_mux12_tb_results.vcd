@@ -1,0 +1,49 @@
+$date
+	Tue Dec  7 20:38:11 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	100ps
+$end
+$scope module mu0_mux12_tb $end
+$var wire 12 ! Q [11:0] $end
+$var reg 12 " A [11:0] $end
+$var reg 12 # B [11:0] $end
+$var reg 1 $ S $end
+$scope module dut $end
+$var wire 12 % A [11:0] $end
+$var wire 12 & B [11:0] $end
+$var wire 1 $ S $end
+$var reg 12 ' Q [11:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx '
+b101110111011 &
+b101010101010 %
+x$
+b101110111011 #
+b101010101010 "
+bx !
+$end
+#1000
+b101110111011 !
+b101110111011 '
+1$
+#2000
+b101010101010 !
+b101010101010 '
+0$
+#3000
+b101110111011 !
+b101110111011 '
+1$
+#4000
+b101010101010 !
+b101010101010 '
+0$
+#5000
